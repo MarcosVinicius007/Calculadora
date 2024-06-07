@@ -1,0 +1,37 @@
+/* CSS (in style.css file) */
+body {
+    background-color: #333; /* black background */
+    color: #33CC33; /* green text */
+  }
+  
+  input[type="text"] {
+    width: 200px;
+    height: 30px;
+    font-size: 24px;
+    text-align: right;
+    padding: 10px;
+    margin: 10px;
+  }
+  
+  table {
+    border-collapse: collapse;
+  }
+  
+  td {
+    padding: 10px;
+  }
+  
+  button {
+    width: 50px;
+    height: 50px;
+    font-size: 24px;
+    background-color: #33CC33; /* green buttons */
+    color: #333; /* black text */
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #66CC66; /* lighter green on hover */
+  }
